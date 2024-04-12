@@ -34,7 +34,19 @@
 }
 
 .card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   padding: 2em;
+  border: 1px solid #222;  
+  border-radius: 25px;
+  }
+
+.card img{
+  width: 250px;
+  height: 250px;
+  align-self: center;
+  border-radius: 25px;
 }
 
 .read-the-docs {
